@@ -54,9 +54,9 @@ $mapper->getYourTableNameSetBySomeField($someField);...
 
 =Important notes=
 
-1. Do not make any change to Model and ModelFactory files because they will always be overwritten.
-2. Do not alter existing methods below the __construct() in Mapper classes.
-3. Put your custom methods into Mapper classes between `protected $serviceLocator;` and public function `__construct(TableGateway $tableGateway)` like this:
+  # Do not make any change to Model and ModelFactory files because they will always be overwritten.
+  # Do not alter existing methods below the __construct() in Mapper classes.
+  # Put your custom methods into Mapper classes between `protected $serviceLocator;` and public function `__construct(TableGateway $tableGateway)` like this:
 {{{
     /**
      * @var ServiceLocatorInterface
