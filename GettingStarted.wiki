@@ -41,7 +41,7 @@ $mapper = \YourModule\Model\ModelFactory::getInstance()->getYourTableNameMapper(
 }}}
 Construct a Model: 
 {{{
-$model = new \YourModule\Model\YourTableName\YourTableName;
+$model = new \YourModule\Model\YourTableName\YourTableNameModel;
 $model->setSomeField($someField);
 $model->setAnotherField($anotherField);
 }}}
